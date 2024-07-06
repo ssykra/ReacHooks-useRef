@@ -19,7 +19,7 @@ export default function Example(props) {
         placeholder="Masukkan teks disini"/>
       <Text style={styles.teks}>Hai, namaku {props.nama}</Text>
       <Text style={styles.teks}>Umurku adalah {umur}</Text>
-      <Text style={styles.teks}>Aku mengklik {renderCount.current} kali</Text>
+      <Text style={styles.teks}>Aku merender sebanyak {renderCount.current} kali</Text>
     </View>
   )
 }
